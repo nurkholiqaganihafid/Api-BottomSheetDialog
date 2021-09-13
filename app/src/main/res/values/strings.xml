@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Api BottomSheetDialog</string>
+    <string name="api_bottom_sheet_dialog">Api Bottom Sheet Dialog</string>
 </resources>
