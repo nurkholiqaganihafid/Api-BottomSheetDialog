@@ -3,10 +3,8 @@ package com.example.apibottomsheetdialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
-import android.widget.Toast
 import com.google.android.material.bottomsheet.BottomSheetDialog
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttonApi: Button = findViewById(R.id.buttonApi)
-        
         buttonApi.setOnClickListener {
             val bottomSheetDialog = BottomSheetDialog(
                 this@MainActivity, R.style.BottomSheetDialogTheme
