@@ -6,6 +6,6 @@ package com.example.apibottomsheetdialog
 
 data class MainModel(val result: ArrayList<Sports>) {
 
-    data class Sports (val strSport: Int, val strFormat: String, val strSportThumb: String)
+    data class Sports (val strSport: String, val strFormat: String, val strSportThumb: String)
 
 }
