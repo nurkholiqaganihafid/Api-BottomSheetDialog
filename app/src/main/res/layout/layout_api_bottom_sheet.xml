@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="10dp"
-        android:text="List Fottball"
+        android:text="@string/list_all_sports"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
