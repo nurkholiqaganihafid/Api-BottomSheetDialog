@@ -6,7 +6,8 @@ import retrofit2.http.GET
 
 interface ApiEndpoint {
 
-    @GET("all_sports.php")
+    // all_sports.php
+    @GET("data.php")
     fun getData(): Call<MainModel>
 
 }

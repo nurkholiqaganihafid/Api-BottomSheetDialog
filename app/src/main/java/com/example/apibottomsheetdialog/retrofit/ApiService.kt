@@ -7,8 +7,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiService {
 
-    val BASE_URL: String = "https://www.thesportsdb.com/api/v1/json/1/"
-    val endpoint : ApiEndpoint
+    // https://www.thesportsdb.com/api/v1/json/1/
+    val BASE_URL: String = "https://demo.lazday.com/rest-api-sample/"
+    val endpoint: ApiEndpoint
         get() {
 
             val interceptor = HttpLoggingInterceptor()
@@ -19,7 +20,7 @@ object ApiService {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                .baseUrl (BASE_URL)
+                .baseUrl(BASE_URL)
                 .client(client)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()

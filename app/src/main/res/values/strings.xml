@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Api BottomSheetDialog</string>
     <string name="api_bottom_sheet_dialog">Api Bottom Sheet Dialog</string>
-    <string name="list_all_sports">List all Sports</string>
+    <string name="list_all_hero">List all Hero</string>
 </resources>
